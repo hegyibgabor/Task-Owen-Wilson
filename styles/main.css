@@ -84,7 +84,26 @@ p{
 audio {
     width: 100%
   }
-  @-moz-document url-prefix() {
+#save{
+    margin-top: 4rem;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+#load{
+    text-align: center;
+    height:auto;
+    width: 8rem;
+    margin-top: 2rem;
+    margin: auto;
+    border-radius: 3px;
+    background-color: red;
+    color:#d6d6d6;
+    border-color:red ;
+}
+@-moz-document url-prefix() {
     audio {
     width:30%;
     }
@@ -106,7 +125,7 @@ audio {
 
     }
     #save{
-        margin-top: 0rem;
+        margin-top: 1rem;
         width: 10rem;
         height: 2rem;
         border-radius: 8px;
@@ -121,24 +140,10 @@ audio {
         margin-top: 6rem;
         margin-bottom: 1rem;
     }
+    h2{
+        position: relative;
+        text-align: center;
+        right: 35%;
+    }
     
-}
-#save{
-    margin-top: 4rem;
-    width: 10rem;
-    height: 2rem;
-    border-radius: 8px;
-    background-color: black;
-    color: white;
-}
-#load{
-    text-align: center;
-    height:auto;
-    width: 8rem;
-    margin-top: 2rem;
-    margin: auto;
-    border-radius: 3px;
-    background-color: red;
-    color:#d6d6d6;
-    border-color:red ;
 }
