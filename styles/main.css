@@ -1,0 +1,144 @@
+body{
+    background-color: #d6d6d6;
+    font-family: sans-serif;
+}
+.sidebar {
+    height: 100%;
+    width: 9.375rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 0;
+    background-color: #626262;
+
+    }
+    .sidebar div {
+        padding: 0.5rem;
+        font-size: 1.5rem;
+        display: block;
+        }
+    .sidebar p {
+        font-size:1.3rem;
+        text-align: center;
+        color:white;
+    }
+.movie-selector{
+    width: 45rem;
+    height: 31rem;
+    background-color: white;
+    margin:0 auto;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+}
+#next{
+    width: 10rem;
+    height: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+    left: 45%;
+    border-radius: 8px;
+    background-color: #626262;
+    color:#d6d6d6;
+    border-color:#626262 ;
+    position: relative;
+}
+.selector-img{
+    position: relative;
+    float: left;
+    width: auto;
+    margin:auto;
+    height: 25rem;
+    left: 7%;
+    top: 4%;
+    margin-top: 2rem;
+
+}
+.side-container img{
+    text-align: center;
+    height:auto;
+    width: 8rem;
+    margin-top: 2rem;
+    margin: auto;
+}
+.side-container p{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 0.3rem;
+}
+
+.movie-data{
+    float: right;
+    right: 12%;
+    top: 10%;
+    position: relative;
+    text-align: center;
+}
+h2{
+    width: 17rem;
+    overflow-wrap: break-word;
+}
+p{
+    margin-bottom: 2rem;
+}
+audio {
+    width: 100%
+  }
+  @-moz-document url-prefix() {
+    audio {
+    width:30%;
+    }
+    .selector-img{
+        position: relative;
+        float: left;
+        width: auto;
+        margin:auto;
+        height: 27rem;
+        left: 4%;
+        top: 2%;
+        margin-top: 2rem;
+    }
+    .movie-data{
+    margin-top: 0rem;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 8px;
+
+    }
+    #save{
+        margin-top: 0rem;
+        width: 10rem;
+        height: 2rem;
+        border-radius: 8px;
+        background-color: black;
+        color: white;
+    }
+    .movie-selector{
+        width: 45rem;
+        height: 31rem;
+        background-color: white;
+        margin:0 auto;
+        margin-top: 6rem;
+        margin-bottom: 1rem;
+    }
+    
+}
+#save{
+    margin-top: 4rem;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+#load{
+    text-align: center;
+    height:auto;
+    width: 8rem;
+    margin-top: 2rem;
+    margin: auto;
+    border-radius: 3px;
+    background-color: red;
+    color:#d6d6d6;
+    border-color:red ;
+}
